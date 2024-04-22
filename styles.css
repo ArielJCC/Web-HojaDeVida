@@ -1,0 +1,66 @@
+/* Estilos para el cuerpo de la página */
+body {
+  font-family: "Arial", sans-serif; /*Fuente para el texto del cuerpo de la página */
+  line-height: 1.6; /*Altura de línea */
+  margin: 0; /* Se quita el margen predeterminado del cuerpo */
+  padding: 0; /* Se quita el relleno predeterminado del cuerpo */
+  background-color: #c1c5cc; /* Se establece el color de fondo del cuerpo */
+}
+
+/* Estilos para el contenedor principal */
+#wrapper {
+  max-width: 800px; /* Se establece el ancho máximo del contenedor */
+  margin: 50px auto; /* Se establece el margen superior, inferior, izquierdo y derecho automáticamente */
+  background-color: #fff; /*Color de fondo del contenedor */
+  padding: 20px; /* Se añade un relleno interior al contenedor */
+  border-radius: 8px; /* Se redondean las esquinas del contenedor */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Se agrega una sombra al contenedor */
+}
+
+/* Estilos para el encabezado y pie de página */
+header,
+footer {
+  background-color: #365d7c; /* Color de fondo del encabezado y pie de página */
+  color: #fff; /* Color del texto en el encabezado y pie de página */
+  padding: 1em; /* Se añade un relleno interior al encabezado y pie de página */
+  text-align: center; /* Se centra el texto dentro del encabezado y pie de página */
+  border-radius: 8px 8px 0 0; /* Se redondean las esquinas del encabezado y pie de página (superior) */
+}
+
+/* Estilos para las secciones de contenido */
+section {
+  padding: 1em; /* Se añade un relleno interior a las secciones de contenido */
+  border-bottom: 1px solid #ccc; /* Se añade un borde inferior a las secciones de contenido */
+}
+
+/* Estilos para los títulos de sección */
+h1,
+h2 {
+  margin-bottom: 0.5em; /* Se añade un espacio entre los títulos de sección y el contenido que les sigue */
+}
+
+/* Estilos para la tabla */
+table {
+  width: 100%; /* Se establece el ancho de la tabla al 100% del contenedor */
+  border-collapse: collapse; /* Se colapsan los bordes de la tabla (crea un diseño más limpio y consistente para la tabla en la página.)*/
+  margin-bottom: 1em; /* Se añade un espacio inferior a la tabla */
+}
+
+/* Estilos para las celdas de la tabla */
+th,
+td {
+  padding: 0.5em; /* Se añade un relleno interior a las celdas de la tabla */
+  border: 1px solid #ccc; /* Se añade un borde a las celdas de la tabla */
+}
+/* Ajustes para la imagen */
+.profile-picture {
+  width: 150px;
+  height: 250px;
+  box-shadow: 0px 4px 8px rgb(33, 81, 136); /* Agregamos una suave sombra */
+  position: absolute; /* Para posicionar absolutamente la imagen */
+  top: 5; /* Para colocar la imagen en la esquina superior */
+  right: 0; /* Para colocar la imagen en la esquina derecha */
+  margin-top: -40px; /* Ajuste para alinear la imagen con la sección */
+  margin-right: 450px; /* Ajuste para alinear la imagen con la sección */
+}
+
